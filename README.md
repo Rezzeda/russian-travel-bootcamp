@@ -1,4 +1,5 @@
 # Проект: Путешествие по России
+[Ссылка на проект](https://rezzeda.github.io/russian-travel-bootcamp/index.html)
 
 ### Обзор
 * Интро
