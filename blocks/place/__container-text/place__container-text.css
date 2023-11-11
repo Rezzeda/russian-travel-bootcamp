@@ -1,0 +1,5 @@
+.place__container-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}

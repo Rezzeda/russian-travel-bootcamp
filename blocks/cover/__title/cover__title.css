@@ -1,0 +1,11 @@
+.cover__title {
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 105.556%;
+    margin: 0 auto 32px auto;
+    max-width: 560px;
+    color: #FFF;
+    z-index: 1;
+}
