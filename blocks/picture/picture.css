@@ -1,5 +1,17 @@
 .picture {
-    /* width: 100%; */
     margin: 0 148px;
     padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .picture {
+        margin: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .picture {
+        margin: 0 auto;
+    }
+}
+

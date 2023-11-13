@@ -2,3 +2,10 @@
     background-image: url(../../../images/header-logo.svg);
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 320px) {
+    .logo_place_header {
+        margin-top: 16px;
+        background-size: 142px 42px;
+    }
+}

@@ -5,3 +5,24 @@
     padding: 92px 48px;
     gap: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+    .gallery__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 88px 24px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .gallery__container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 64px 16px;
+        gap: 12px;
+    }
+}

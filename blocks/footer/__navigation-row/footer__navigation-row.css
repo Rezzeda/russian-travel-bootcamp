@@ -1,3 +1,15 @@
 .footer__navigation-row {
-    
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__navigation-row {
+        margin-top: 76px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .footer__navigation-row {
+        margin-top: 52px;
+    }
 }

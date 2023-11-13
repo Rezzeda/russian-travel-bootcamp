@@ -8,3 +8,10 @@
     font-weight: 900;
     line-height: 107.407%; 
 }
+
+@media screen and (max-width: 320px) {
+    .description__title {
+        font-size: 32px;
+        line-height: 109.375%;
+    }
+}

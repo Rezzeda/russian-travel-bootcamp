@@ -1,6 +1,38 @@
 .picture__main-image {
-    /* max-width: 984px; */
     max-width: 100%;
-    height: 615px;
+    max-height: 615px;
     padding-bottom: 4.5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .picture__main-image {
+        width: 928px;
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .picture__main-image {
+        width: 100vw;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .picture__main-image {
+        width: 100vw;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .picture__main-image {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .picture__main-image {
+        height: 200px;
+    }
 }
