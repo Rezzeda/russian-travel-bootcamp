@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page" >
     <header class="header">
-        <div class="logo logo_place_header"></div>
+        <div class="logo"></div>
         <ul class="header__lang-links">
-            <li><a class="header__lang-link header__lang-link_decoration_underlined" href="#" target="_blank">Ru</a></li>
+            <li><a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a></li>
             <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
         </ul>
     </header>
@@ -24,7 +24,7 @@
                 <figcaption class="picture__caption">ваша полка — верхняя</figcaption>
             </figure>
         </section>
-        <section class="intro">
+        <section class="intro" aria-label="Введение">
             <article class="description">
                 <h2 class="description__title">Чего мы там не&nbsp;видели?</h2>
                 <p class="description__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
@@ -37,28 +37,28 @@
                 </ul>
             </article>
         </section>
-        <section class="gallery">
-            <div class="gallery__container">
-                <img src="./images/photo-grid-train.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-atharva-tulsi.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-tuman.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-sochi.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-arisa.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-baikal.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-elbrus.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-kondratiev.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-kamchatka-1.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-kamchatka-2.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-baikal-2.jpg" alt="" class="gallery__image">
-                <img src="./images/photo-grid-ergaki.jpg" alt="" class="gallery__image">
-            </div>
+        <section class="gallery" aria-label="Фотогалерея">
+            <ul class="gallery__container">
+                <li><img src="./images/photo-grid-train.jpg" alt="Вид на природу из окна поезда" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Облака над горами вид сверху" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-tuman.jpg" alt="Собака на стоге сена в тумане" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-sochi.jpg" alt="Горный лес в тумане" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-arisa.jpg" alt="Колесо автомобиля крупным планом на льду" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-baikal.jpg" alt="Берег озера Байкал на фоне гор летом" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус под снегом" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходный переход на фоне бетонных пробок" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки в тумане вид сверху" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-kamchatka-2.jpg" alt="Горы Камчатки издалека" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-baikal-2.jpg" alt="Вид на зимний Байкал с гор" class="gallery__image"></li>
+                <li><img src="./images/photo-grid-ergaki.jpg" alt="Невысокие горы парка Ергаки в тумане" class="gallery__image"></li>
+            </ul>
         </section>
-        <section class="sights">   
+        <article class="sights" aria-label="Достопримечательности">   
             <div class="place">
                 <h2 class="place__title card-item">Куршская коса&nbsp;&nbsp;</h2>
                 <img src="./images/place-kosa.jpg" alt="Куршская коса" class=" card-item place__image">
                 <div class="place__link-container card-item">
-                    <p class="place__contact">URL</p>
+                    <p class="place__contact">url</p>
                     <a href="park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
                 </div>
                 <div class="place__container-text card-item">
@@ -70,7 +70,7 @@
                 <h2 class="place__title card-item">Кольский</h2>
                 <img src="./images/place-kolsky.jpg" alt="Кольский" class=" card-item place__image">
                 <div class="place__link-container card-item">
-                    <p class="place__contact">URL</p>
+                    <p class="place__contact">url</p>
                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National Geographic</a>
                 </div>
                 <div class="place__container-text card-item">
@@ -82,7 +82,7 @@
                 <h2 class="place__title card-item">Алтай</h2>
                 <img src="./images/place-altai.jpg" alt="Кольский" class=" card-item place__image">
                 <div class="place__link-container card-item">
-                    <p class="place__contact">URL</p>
+                    <p class="place__contact">url</p>
                     <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" class="place__link">YouTube</a>
                 </div>
                 <div class="place__container-text card-item">
@@ -94,7 +94,7 @@
                 <h2 class="place__title card-item">Зимний Байкал</h2>
                 <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class=" card-item place__image">
                 <div class="place__link-container card-item">
-                    <p class="place__contact">URL</p>
+                    <p class="place__contact">url</p>
                     <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
                 </div>
                 <div class="place__container-text card-item">
@@ -106,21 +106,19 @@
                 <h2 class="place__title card-item">Карелия</h2>
                 <img src="./images/place-karelia.jpg" alt="Карелия" class=" card-item place__image">
                 <div class="place__link-container card-item">
-                    <p class="place__contact">URL</p>
+                    <p class="place__contact">url</p>
                     <a href="http://vodlozero.ru/" target="_blank" class="place__link">http://vodlozero.ru/</a>
                 </div>
                 <div class="place__container-text card-item">
                     <p class="place__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
             </div>
-        </section>
+        </article>
         <section class="cover">
-            <div class="page__container">
-                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-                    <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-                    <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
-                </a>
-            </div>
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+                <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+                <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+            </a>
         </section>
     </main>
     <footer class="footer">
